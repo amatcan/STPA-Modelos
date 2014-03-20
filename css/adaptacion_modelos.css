@@ -1,0 +1,222 @@
+body#aplicacion{
+	font-size:80%;
+}
+
+ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+img {
+    border: 0 none;
+}
+div#bodydiv{
+	display: table;
+}
+div#header{
+	text-align:center;
+	background-color:#DDEDED;
+	border-radius:0 0 10px 10px;
+	box-shadow: 0px 5px 5px #888888;
+	margin:0 auto 0.5em auto;
+	min-width: 980px;
+	height: 9em;
+    width: 98em;
+}
+div#header h1{
+	display: inline;
+}
+
+div#cabecera_enlaces{
+	background-color: #003FA6;
+    overflow: hidden;
+	border-radius: 0 0 10px 10px;
+    box-shadow: 0 5px 5px #888888;
+    display: inline-block;
+    margin-top: 0;
+	margin-bottom: 0.5em;
+    width: 100%;
+}
+div#cabecera_enlaces div.div_logo{
+	box-shadow: 0 0 0;
+    width: 40%;
+	background-color: #003FA6;
+    border-radius: 0 0 10px 10px;
+	float: left;
+    overflow: hidden;
+}
+div#cabecera_enlaces div.div_logo h1{
+	display:inline;
+	margin: 0 auto;
+    text-align: left;	
+}
+div#cabecera_enlaces div.div_logo  img.logo{
+	max-width:45%;
+	float:left;
+	padding: 0;	
+}
+div#cabecera_enlaces div.div_logo img.portal{
+	max-width:45%;
+	float:left;
+	padding: 0
+}
+div#cabecera_enlaces nav.enlaces{
+	width:100%;
+	float:left;
+}
+div#cabecera_enlaces ul {
+	float: right;
+}
+div#cabecera_enlaces li {
+	float: left;
+	width:auto;
+    height: 2em;
+}	
+div#cabecera_enlaces div.enlaces{
+	width:60%;
+	float:right;
+	font-size: 125%;
+}
+div#cabecera_enlaces li a, div#cabecera_enlaces li a:visited{
+    color: #FFFFFF;
+    line-height: 2em;
+    padding: 0.2em 0.5em;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+div#cabecera_info{	
+	display: inline-block;
+	width: 100%;
+	margin:0;
+	font-size:120%;
+}
+
+div#cabecera_info li{
+	float: left;
+    width: 48%;
+}
+div#cabecera_info li.usuario{
+	font-weight:bold;
+	color:#4B4947;
+}
+div#cabecera_info li.hora a {
+	background-image: url("images/hora.gif");
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 1.7em;
+	text-decoration:none;
+}
+
+div#pie{
+	display: table;
+	margin:1em auto 0.5em auto;
+	min-width: 980px;
+    width: 98em;
+	background-color: #045FB4;
+	text-align: center;
+}
+div#pie a{
+	text-decoration:none;
+	font-size:130%;
+	color:#F5F5F5;
+}
+div#pie div#contacto{
+	border-bottom: 0 none;
+    float: left;
+    line-height: 1.8em;
+    width: 30%;
+	padding-right: 0.5em;
+    text-align: right;
+	display: inline-block;
+    font-size: 120%;
+	margin: 0;
+}
+div#pie div#contacto ul {
+    text-align: right;
+}
+
+div#pie div#pie_enlaces {
+    border-bottom: 0 none;
+    border-left: 1px solid #888888;
+    border-right: 1px solid #888888;
+    float: left;
+    margin: 0.5em 0 0;
+    width: 40%;
+	display: inline-block;
+    padding: 0;
+}
+div#pie div#pie_enlaces ul {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#pie div#pie_enlaces ul li {
+    width: auto;
+	float: left;
+}
+div#pie div#pie_enlaces ul.ul_imagenes {
+    width: 100%;
+}
+
+div#pie div#pie_enlaces ul.ul_imagenes li {
+    width: 50%;
+}
+div#pie div#pie_enlaces li a {
+    line-height: 2em;
+    padding: 0.2em 0.5em;
+}
+
+div#pie div#pie_enlaces img {
+    max-height: 3em;
+    max-width: 90%;
+}
+div#pie div#copyright {
+    color: #F5F5F5;
+    line-height: 1em;
+    float: left;
+    padding-left: 0.5em;
+    text-align: left;
+    width: 25%;
+}
+div#pie div#copyright p {
+    margin: 0.4em 0;
+	line-height: 1.5em;
+}
+div#pie div#copyright a.copy {
+    font-weight: bold;
+}
+.soporte-tramite {
+	width:100%;
+	display: inline-block;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #9FF781;
+	padding:0.5em 0;
+	
+}
+.soporte-tramite a{
+	text-decoration:none;
+}
+.soporte-tramite a.pdf{
+	background:url("images/ico-pdf.png") no-repeat scroll left center rgba(0, 0, 0, 0)!important;
+	padding: 0 0 0 1.5em!important;
+}
+.soporte-tramite ul{
+	list-style:none;
+	margin: 0;
+	padding: 0 2em;
+}
+.soporte-tramite ul li{
+	float:left;
+	width:30%;
+	text-align:center;		
+}
+.soporte-tramite ul li:first-child{
+	text-align:left;
+}
+.soporte-tramite ul li:last-child{
+	text-align:right;
+	width:40%;
+}

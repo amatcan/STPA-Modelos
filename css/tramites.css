@@ -1,0 +1,227 @@
+section#generacion-modelo{
+	width:95%;	
+}
+section#generacion-modelo form{
+	width:100%;	
+}
+section#generacion-modelo ul#atajosFormulario{
+	border: 1px solid #D1D1D1;
+	border-radius: 10px;
+	display: inline-block;
+	list-style: none outside none;
+	width:98%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+}
+section#generacion-modelo ul#atajosFormulario li{
+	padding:0.2em 0;
+}
+section#generacion-modelo fieldset{
+	border-radius:10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	width:98%;
+	margin-left:auto;
+	margin-right:auto;
+	
+	border:1px solid #080808;
+}
+section#generacion-modelo fieldset legend{
+	color:#080808;
+}
+section#generacion-modelo label{
+	display: inline-block;
+	margin: 0 0.5em 0.5em 0;
+	width:100%;
+}
+section#generacion-modelo label.shortext  {
+	width:40%;
+}
+section#generacion-modelo label.midtext {
+	width:60%;
+}
+section#generacion-modelo label.longtext {
+	width:90%;	
+}
+section#generacion-modelo label select{
+	width:90%;
+}
+section#generacion-modelo input, section#generacion-modelo select{
+	font-size: 1.2em;
+	margin:0;
+}
+section#generacion-modelo input[type="text"]{
+	width:100%;
+}
+section#generacion-modelo input[type="submit"]{
+	width:auto;
+}
+section#generacion-modelo input[type="image"]{
+	width:1.2em;
+}
+section#generacion-modelo label select{
+	max-width:10em;
+}
+
+section#generacion-modelo .date input{
+	width:8em;
+	margin-right:0.5em;
+}
+section#generacion-modelo .radiow input[type="checkbox"]{
+	width:auto;
+}
+
+section#generacion-modelo p.aviso{
+	font-weight:bold;	
+	font-size:0.8em;
+}
+section.ayuda{
+	padding:0 0.5em;
+}
+section#generacion-modelo .oculto {
+	margin-left: -5000px !important;
+	overflow: hidden !important;
+	position: absolute !important;
+	text-indent: -999em
+}
+section#generacion-modelo .date {
+	width:12em;
+	margin-right: 1em;
+}
+
+section#generacion-modelo .shorttext {
+	width:8em;	
+	margin-right: 1em;
+}
+section#generacion-modelo .editbtn{
+	width: auto;
+}
+section#generacion-modelo p{
+	margin:0;
+}
+/*Modelo 008*/
+section#generacion-modelo[class="008"] label[for="c49c"]{
+	width:100%;
+}
+
+section#generacion-modelo[class="008"] label[for="c27"],
+section#generacion-modelo[class="008"] label[for="c34c"],
+section#generacion-modelo[class="008"] label[for="c40"],
+section#generacion-modelo[class="008"] label[for="c47c"],
+section#generacion-modelo[class="008"] label[for="relacion"]{
+	width:100%;
+}
+section#generacion-modelo[class="008"] input[name="rellenarCalles"] {
+	display: block;
+}
+/*End modelo 008*/
+@media (min-width:430px) and (max-width:730px){
+	section#generacion-modelo{
+		width:100%;	
+	}
+	section#generacion-modelo ul#atajosFormulario li{
+		border-bottom:0;
+		padding:0.2em 0;
+		width:48%;
+		margin:0;
+		float:left;
+	}
+}
+@media (min-width:730px){
+	section#generacion-modelo{
+		font-size:90%;
+		width:100%;	
+	}
+	section#generacion-modelo fieldset {
+	}
+	section#generacion-modelo ul#atajosFormulario{
+		width:auto;
+	}
+	section#generacion-modelo ul#atajosFormulario li{
+		float:left;
+		padding:0.5em;
+		border-right:1px solid #D1D1D1;
+	}
+	section#generacion-modelo ul#atajosFormulario li:hover{
+		background-color:#D1D1D1;
+	}
+	section#generacion-modelo ul#atajosFormulario li:last-child{
+		border-right:0;
+	}
+
+	section#generacion-modelo input, section#generacion-modelo select {
+		font-size: 1em;
+	}
+	section#generacion-modelo input[type="text"] {
+		width:90%;
+	}
+	section#generacion-modelo fieldset legend{
+		font-weight:bold;
+		font-size:0.9em;
+	}
+	section#generacion-modelo label{
+		width:auto;
+		display:inline-block;
+	}
+	section#generacion-modelo label.shortext {
+		width:15%;
+	}
+	section#generacion-modelo label.midtext {
+		width:20%;
+	}
+	section#generacion-modelo label.longtext {
+		width:50%;	
+	}
+	section#generacion-modelo label select{
+		width:90%;
+	}
+	
+	/*Modelo 008*/
+	section#generacion-modelo[class="008"] label[for="c34c"],
+	section#generacion-modelo[class="008"] label[for="c33c"],
+	section#generacion-modelo[class="008"] label[for="c35"],
+	section#generacion-modelo[class="008"] label[for="c36"],
+	section#generacion-modelo[class="008"] label[for="c40"],
+	section#generacion-modelo[class="008"] label[for="c27"],
+	section#generacion-modelo[class="008"] label[for="c47c"],
+	section#generacion-modelo[class="008"] label[for="c46d"],
+	section#generacion-modelo[class="008"] label[for="c48"],
+	section#generacion-modelo[class="008"] label[for="c49c"]{
+		width: 20%;
+	}
+	section#generacion-modelo[class="008"] label[for="c28d"]{
+		width: 60%;
+	}
+	section#generacion-modelo[class="008"] input[id="c28d"]{
+		width:100%;
+	}
+	section#generacion-modelo[class="008"]  input[name="rellenarCalles"]{
+		width:10%;
+		display: inline	;
+	}
+	section#generacion-modelo[class="008"] label[for="c29"],section#generacion-modelo[class="008"] label[for="c29bis"],section#generacion-modelo[class="008"] label[for="c30"],section#generacion-modelo[class="008"] label[for="c31"],section#generacion-modelo[class="008"] label[for="c32"]{
+		 width: 15%;
+	}
+	section#generacion-modelo[class="008"] label select{
+		width:80%;
+	}
+	section#generacion-modelo[class="008"] label[for="c56"]{
+		width:65%
+	}
+	section#generacion-modelo[class="008"] label[for="fechaFirma"]{
+		width:30%;
+	}
+	section#generacion-modelo[class="008"] label[for="fechaFirma"] input{
+		width:75%;
+		margin:0 0.5em 0 0;		
+	}
+	section#generacion-modelo[class="008"] label[for="fechaFirma"] img{
+		margin:0;
+	}
+	section#generacion-modelo[class="008"] label input[readonly="readonly"]{
+		width:80%;
+	}
+	/*End modelo 008*/
+
+}

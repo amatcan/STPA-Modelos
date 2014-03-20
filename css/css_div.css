@@ -1,0 +1,377 @@
+body{
+	margin:0;
+	background-color: #FFFFFF;
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size:100%;
+    line-height:1.5em;
+}
+
+img{
+	border:0;
+}
+a{
+	color: #4B4947;
+    text-decoration: none;
+}
+header[role="banner"]{
+	text-align:center;
+	background-color:#DDEDED;
+	border-radius:0 0 10px 10px;
+	box-shadow: 0px 5px 5px #888888;
+	margin-bottom:0.5em;
+}
+div[role="main"]{
+	width:95%;
+	margin: 0 auto;
+}
+span.titulo{
+	font-size: 1.5em;
+}
+div#home-center{
+	display: inline-block;
+}
+div.separador{
+	margin:0;
+	padding:0;
+	height:1px;
+	box-shadow: 0px 0px 5px #888888;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+footer{
+	margin: 0 auto;
+	text-align:center;
+}
+
+div{
+	margin:0.5em 0;
+}
+div footer{
+	text-align:right;
+}
+div footer a{
+	color: #0000A0;
+    text-decoration: underline;
+}
+ul{
+	list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#marco{
+	border: 1px solid #808080;
+    margin: 0 auto;
+    width: 95%;
+}
+div#cabecera_enlaces{
+	background-color:#003FA6;
+	border-radius:0 0 10px 10px;
+	box-shadow: 0px 5px 5px #888888;
+	display:inline-block;
+	width:100%;
+	margin-top:0;
+}
+div#cabecera_enlaces div.div_logo{
+	border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 5px;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+div#cabecera_enlaces div.div_logo h1{
+	display:inline;
+	margin: 0 auto;
+    text-align: left;
+}
+div#cabecera_enlaces div.div_logo h1 img.logo{
+	max-width:45%;
+	float:left;
+	padding: 0;	
+}
+div#cabecera_enlaces div.div_logo img.portal{
+	max-width:45%;
+	float:right;
+}
+div#cabecera_enlaces div.enlaces{
+	width:100%;
+	float:left;
+}
+
+div#cabecera_enlaces li{
+    float: left;
+    height: 2em;
+    width: 48%;
+}
+div#cabecera_enlaces li a{
+    color: #FFFFFF;
+    line-height: 2em;
+    padding: 0.2em 0.5em;
+	font-weight:normal;
+}
+
+div#cabecera_info{	
+	display: inline-block;
+	width: 100%;
+}
+
+div#cabecera_info li{
+	float: left;
+    width: 48%;
+}
+div#cabecera_info li.usuario{
+	font-weight:bold;
+	color:#4B4947;
+}
+div#cabecera_info li.hora a {
+	background-image: url("images/hora.gif");
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 1.7em;
+}
+div#pie_enlaces{
+	display:inline-block;
+	width:100%;
+	background-color: #DDEDED;
+	border-radius: 10px;	
+}
+div#pie_enlaces li{
+    float: left;
+    height: 2em;
+    width: 48%;
+}
+div#pie_enlaces li a{
+    color: #0000A0;
+    line-height: 2em;
+    padding: 0.2em 0.5em;
+}
+div#mensajes{
+	background-color: #FFF9BA;
+    font-size: 0.8em;
+	padding:0.5em 2em;	
+}
+div#mensajes ul{
+	text-align:justify;
+	list-style:square;
+}
+div#mensajes .saludo{
+	list-style:none;
+	text-align:center;
+}
+div#mensajes .aviso{
+	color:#CB0000;
+	font-weight:bold;
+}
+div#categorias-tramites{
+	display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+div#categorias-tramites ul{
+	list-style:none;
+}
+div#categorias-tramites li{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+div#campanyas{
+	background-color: #DDEDED;
+    font-size: 0.8em;
+	text-align:center;
+}
+div#campanyas div.campanya{
+	background-color: #FFFFFF;
+	padding: 0.5em;
+	border-radius: 10px;	
+	display: inline-block;
+	width: 95%;
+	text-align:left;
+}
+div#campanyas div.campanya .imagen{
+	width: 30%;
+	overflow: hidden;
+	float: left;
+	margin-right: 0.5em;
+}
+
+div#campanyas div.campanya h1{
+	margin:0;
+	line-height: 1.1em;
+}
+div#campanyas div.campanya p{
+	margin:0;
+    padding: 0 0 0 1em;
+	line-height: 1.3em;
+}
+div#servicios{
+	width:100%;
+}
+div#servicios div.servicio{
+	display: inline-block;
+	font-size: 0.8em;
+	width: 95%;	
+	padding: 0 0.5em 0.5em;
+}
+div#servicios  div.servicio div.imagen{
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #888888;
+	display: inline-block;
+	max-width: 29%;
+	overflow: hidden;
+	float: left;
+	border: 1px solid #888888;
+	margin-right: 0.8em;
+}
+div#servicios  div.servicio img{
+	width: 100%;
+	float: left;
+	margin:0 0.5em 0 0;
+	padding: 0;
+}
+div#servicios  div.servicio p{
+	margin:0;
+	text-align:justify;
+	line-height: 1.3em;
+}
+div#copyright a.copy{
+	font-size:0.8em;
+	font-weight:bold;
+}
+div#copyright p{
+	margin:0.4em 0;
+	font-weight:bold;
+	text-align:right;
+}
+.cajetin{
+	border-radius: 10px;
+	border: 1px solid #D1D1D1;
+	padding: 0.2em 1em 0 1em;
+}
+.cajetin header h1 {
+	color: #494949;
+	height: 1.4em;
+	margin: 0;
+}
+.cajetin ul{
+	text-align:left;
+	list-style:square;
+	list-style-position: inside;
+}
+.cajetin li{
+	line-height: 1.5em;
+	
+}
+.sombra{
+	border-radius: 10px;
+	box-shadow: 0px 5px 5px #888888;
+}
+div#colA{
+	width:100%;
+}
+div#colB{
+	width:100%;
+}
+div#colC{
+	width:100%;
+}
+
+@media (min-width:430px) and (max-width:730px){
+	body{
+		font-size:80%;
+	}
+}
+@media (min-width:730px){
+	div.separador{
+		height:0;
+	}
+	div#cabecera_enlaces div.div_logo {
+		width:40%;
+		box-shadow:0 0 0;
+	}
+	div#cabecera_enlaces div.div_logo img.portal{
+		float:left;
+	}
+	div#cabecera_enlaces{
+		max-height:5em;
+	}
+	div#cabecera_enlaces img{
+		padding: 0!important;
+	}
+	div#cabecera_enlaces ul {
+		float: right;
+	}
+	div#cabecera_enlaces li {
+		float: left;
+		width:auto;
+	}
+	div#cabecera_enlaces div.enlaces {
+		width:60%;
+		float:right;
+	}
+	div#cabecera_info{
+		margin:0;
+	}
+	div#campanyas{		
+		display: inline-block;
+		width:100%;
+	}
+	div#campanyas div.campanya{
+		width:25%;		
+		float:left;
+		padding:0;
+		background-color:rgba(0, 0, 0, 0);
+	}
+	div#campanyas div.campanya h1{
+		padding: 0 0 0 1em;
+		margin:0;
+		text-align: left;
+	}
+	div#campanyas div.campanya img {
+		width: auto;
+	}
+	div#servicios div.servicio {
+		width: 25%;
+		float:left;
+		padding:0;
+	}
+	div#servicios div.servicio header h1{
+		margin: 0;
+		max-height: 1.2em;
+		line-height:1.2em;
+		overflow: hidden;
+	}
+	div#servicios div.servicio div.imagen{
+		margin-left: auto;
+		margin-right: auto;
+		max-height: 5em;
+		overflow: hidden;
+		width: 95%;
+	}
+	div#servicios div.servicio img {
+		width:100%;		
+	}
+	div#servicios div.servicio p{
+		padding: 0 0.5em;
+	}
+	div#colA {
+		display: inline-block;
+		float: left;
+		width: 28%;
+		margin-right:0.5em;
+	}
+	div#colB {
+		display: inline-block;
+		float: left;
+		width: 50%;
+	}
+	div#colC {
+		display: inline-block;
+		float: left;
+		margin-left:0.5em;
+		width: 18%;
+	}
+}
